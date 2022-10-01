@@ -1,16 +1,26 @@
 #nav-bar{
     overflow: hidden;
-    background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
+    float: right;
+    background-color: aqua;
 }
 #nav-bar a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: #080101;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    display: flexbox;
+  }
+  #video{
+    display: flexbox;
+  }
+  #Header{
+    display: flexbox;
+    background-color: blueviolet;
+    padding-top: 20px;
   }
